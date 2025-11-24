@@ -19,7 +19,7 @@ ul{
 /* end public style*/
 .header .container{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .header{
@@ -38,6 +38,8 @@ ul{
 }
 .header ul{
     padding-top: 9px;
+    padding-left: 88px;
+    padding-right: 227px;
     display: flex;
     gap :35px;
 }

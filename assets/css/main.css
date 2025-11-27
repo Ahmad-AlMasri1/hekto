@@ -16,6 +16,9 @@ ul{
     max-width: 1400px;
     margin:0 auto;
 }
+body{
+    height: 6000px;
+}
 /* end public style*/
 .header .container .left{
     display: flex;
@@ -42,6 +45,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    transition: 0.9s;
 }
 .header ul{
     padding-top: 9px;
@@ -54,7 +58,7 @@ ul{
     flex-shrink: 0;
     border:0;
 }
-.header .list .service a{
+.header .service a{
     text-decoration: none;
     color:#0D0E43;
     font-family: Lato;
@@ -62,6 +66,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    transition: 0.9s;
 }
 .header form {
     border: 2px solid #E7E6EF;
@@ -81,4 +86,15 @@ ul{
     flex-shrink: 0;
     }
 }
-
+.header{
+    position: fixed;
+    width: 100%;
+}
+.header .service a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.header .home a:hover{
+    color: purple;
+    font-size: 20px;
+}

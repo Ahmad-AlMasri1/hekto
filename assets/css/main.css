@@ -86,6 +86,7 @@
 .menu{
     display: none;
 }
+/*responsive 1*/
 @media screen and (min-width: 0) and (max-width: 480px){
     .list,
     .search-form{
@@ -119,7 +120,6 @@
     .footer .footer-left,.footer .footer-right{
         width: 100%;
     }
-
 }
 @media screen and (min-width:769px) and (max-width: 1050px){
     .list,
@@ -134,6 +134,256 @@
     }
 
 }
+/*responsive 1*/
+/*responsive 2*/
+@media screen and (min-width: 0) and (max-width: 530px){
+    .hero .content p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero .content button{
+    border:0;
+    padding:4.5px 5px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    span{
+        font-size: 5px !important;
+    }
+    display: flex;
+
+    
+}
+.hero .content {
+    gap: 1px !important;
+    
+}
+.hero {
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 9vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+}
+@media screen and (min-width:531px) and (max-width: 768px){
+    .hero .content p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero .content button{
+    border:0;
+    padding:5px 14px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    span{
+        font-size: 10px;
+    }
+}
+.hero .content {
+    gap: 4px !important;
+    
+}
+.hero {
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+}
+@media screen and (min-width:769px) and (max-width: 1050px){
+
+    .hero .content p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero .content button{
+    border:0;
+    padding:9px 18px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    
+}
+.hero {
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+}
+@media screen and (min-width:1051px) and (max-width: 1600px){
+    .hero .content p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero .content button{
+    border:0;
+    padding:10px 20px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    
+}
+.hero {
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+}
+/*responsive 2*/
+/*start products*/
+    .products .container{
+        display: flex; 
+        flex-direction: column;       
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .products .row{
+        gap: 30px;
+    }
+    .products h2{
+    color: #1A0B5B;
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .products .item-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    .products .item-info h3{
+        color: var(--primary);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .products .item-info .code{
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .products .item-info .price{
+        color:#151875;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .products .item-info .buttons{
+        display: flex;
+        gap: 3px;
+    }
+    .products .item-info .buttons .btn1 button {
+            padding: 1px 5px;
+            background-color: #05E6B7;
+    }
+    .products .item-info .buttons .btn2 button{
+            padding: 1px 5px;
+            background-color: #F701A8;
+            
+    }
+    .products .item-info .buttons .btn3 button{
+            padding: 1px 5px;
+            background-color: #00009D;
+            
+    }
+/*end products*/
+/*start hero*/
+.hero{
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.hero p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero button{
+    border:0;
+    padding:13px 40px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+}
+/*end hero*/
 /* start footer */
 .footer{
     padding: 50px 0;

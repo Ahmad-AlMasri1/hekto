@@ -136,7 +136,47 @@
 }
 /*responsive 1*/
 /*responsive 2*/
-@media screen and (min-width: 0) and (max-width: 530px){
+@media screen and (min-width: 0) and (max-width: 370px){
+    .hero .content p{
+    color: #151875;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%; 
+    letter-spacing: 0.525px;
+}
+.hero .content button{
+    border:0;
+    padding:4.5px 5px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    span{
+        font-size: 5px !important;
+    }
+    display: flex;
+
+    
+}
+.hero .content {
+    gap: 1px !important;
+    
+}
+.hero {
+    background-image: url(./../image/Rectangle\ 102.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 6vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+}
+@media screen and (min-width: 371px) and (max-width: 569px){
     .hero .content p{
     color: #151875;
     text-align: center;
@@ -176,7 +216,7 @@
     
 } 
 }
-@media screen and (min-width:531px) and (max-width: 768px){
+@media screen and (min-width:570px) and (max-width: 768px){
     .hero .content p{
     color: #151875;
     text-align: center;
@@ -206,7 +246,7 @@
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 15vh !important;
+    height: 13vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +279,7 @@
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 20vh !important;
+    height: 17vh !important;
     display: flex;
     justify-content: center;
     align-items: center;

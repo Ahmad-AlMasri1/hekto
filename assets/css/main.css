@@ -17,7 +17,7 @@
     padding: 35px 0 ;
     display:flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color: #ffffff;    
 }
 .header .home a{
     text-decoration: none;
@@ -72,7 +72,7 @@
     }
 }
 .header{
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 .header .service a:hover{
@@ -137,7 +137,7 @@
 /*responsive 1*/
 /*responsive 2*/
 @media screen and (min-width: 0) and (max-width: 370px){
-    .hero .content p{
+    .bgimg .content p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -147,7 +147,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero .content button{
+.bgimg .content button{
     border:0;
     padding:4.5px 5px;
     background-color: var(--primary);
@@ -161,11 +161,11 @@
 
     
 }
-.hero .content {
+.bgimg .content {
     gap: 1px !important;
     
 }
-.hero {
+.bgimg {
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -177,7 +177,7 @@
 } 
 }
 @media screen and (min-width: 371px) and (max-width: 569px){
-    .hero .content p{
+    .bgimg .content p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -187,7 +187,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero .content button{
+.bgimg .content button{
     border:0;
     padding:4.5px 5px;
     background-color: var(--primary);
@@ -201,11 +201,11 @@
 
     
 }
-.hero .content {
+.bgimg .content {
     gap: 1px !important;
     
 }
-.hero {
+.bgimg {
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -217,7 +217,7 @@
 } 
 }
 @media screen and (min-width:570px) and (max-width: 768px){
-    .hero .content p{
+    .bgimg .content p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -227,7 +227,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero .content button{
+.bgimg .content button{
     border:0;
     padding:5px 14px;
     background-color: var(--primary);
@@ -238,11 +238,11 @@
         font-size: 10px;
     }
 }
-.hero .content {
+.bgimg .content {
     gap: 4px !important;
     
 }
-.hero {
+.bgimg {
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -256,7 +256,7 @@
 }
 @media screen and (min-width:769px) and (max-width: 1050px){
 
-    .hero .content p{
+    .bgimg .content p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -266,7 +266,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero .content button{
+.bgimg .content button{
     border:0;
     padding:9px 18px;
     background-color: var(--primary);
@@ -275,7 +275,7 @@
     }
     
 }
-.hero {
+.bgimg {
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -288,7 +288,7 @@
 
 }
 @media screen and (min-width:1051px) and (max-width: 1600px){
-    .hero .content p{
+    .bgimg .content p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -298,7 +298,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero .content button{
+.bgimg .content button{
     border:0;
     padding:10px 20px;
     background-color: var(--primary);
@@ -307,7 +307,7 @@
     }
     
 }
-.hero {
+.bgimg {
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -388,8 +388,8 @@
             
     }
 /*end products*/
-/*start hero*/
-.hero{
+/*start bgimg*/
+.bgimg{
     background-image: url(./../image/Rectangle\ 102.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -399,13 +399,13 @@
     align-items: center;
     
 }
-.hero .content{
+.bgimg .content{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.hero p{
+.bgimg p{
     color: #151875;
     text-align: center;
     font-family: "Josefin Sans";
@@ -415,7 +415,7 @@
     line-height: 155%; 
     letter-spacing: 0.525px;
 }
-.hero button{
+.bgimg button{
     border:0;
     padding:13px 40px;
     background-color: var(--primary);
@@ -423,7 +423,7 @@
         color:white;
     }
 }
-/*end hero*/
+/*end bgimg*/
 /* start footer */
 .footer{
     padding: 50px 0;
@@ -508,3 +508,45 @@ line-height: normal;
     gap: 25px;
 }
 /* end footer */
+/* start hero */
+    .hero .left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .hero span{
+        color: var(--Accent, #FB2E86);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    }
+    .hero h2{
+        color: #000;
+        font-family: "Josefin Sans";
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 170.544%; /* 90.388px */
+        letter-spacing: 0.795px;
+    }
+    .hero p{
+        color: #8A8FB9;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 175% */
+    }
+    .hero button{
+    border:0;
+    padding:13px 40px;
+    background-color: var(--primary);
+    span{
+        color:white;
+    }
+    }
+
+/* end hero */

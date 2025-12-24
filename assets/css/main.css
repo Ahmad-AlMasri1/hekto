@@ -101,13 +101,20 @@
     }
     .footer .footer-left .sign-form{
         input{
-            width: 60%;
+            width: 60%;   
         }
         button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 40%;
-            padding: 6px 40px;
+            padding: 4px 38px;
         }
     }
+    .footer input::placeholder{
+    font-size: 13px !important;
+    }
+    
 }
 @media screen and (min-width:481px) and (max-width: 768px){
     .list,
@@ -375,16 +382,27 @@
     .products .item-info .buttons .btn1 button {
             padding: 1px 5px;
             background-color: #05E6B7;
+            border-radius: 10px;
+            border: 1px solid #000;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
     .products .item-info .buttons .btn2 button{
             padding: 1px 5px;
             background-color: #F701A8;
-            
+            border-radius: 3px;
+            border: 2px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
     .products .item-info .buttons .btn3 button{
             padding: 1px 5px;
             background-color: #00009D;
-            
+            border-radius: 3px;
+            border: 2px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
     .product{
         background: #FFF;
@@ -499,7 +517,7 @@
 }
 .footer .sign-form button{
     border:0;
-    padding:13px 40px;
+    padding:10px 40px;
     background-color: var(--primary);
     span{
         color:white;
@@ -564,6 +582,14 @@ line-height: normal;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 25px;
+}
+.footer input::placeholder{
+    color: #8A8FB9;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 /* end footer */
 /* start hero */
@@ -650,3 +676,118 @@ line-height: normal;
         }
     }
 /* end hero */
+/* start leatest products */
+    .LeatestProducts{
+        padding: 50px;
+    }
+    .LeatestProducts h2{
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    .LeatestProducts .NewArrival a{
+        color: var(--primary);
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration:underline;
+    }
+    .LeatestProducts .service a{
+        color: #151875;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .LeatestProducts  .leatest-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 25px 0;
+    }
+    .LeatestProducts .row{
+        gap:35px;
+        width: calc((100%-70px)/3);
+        justify-content: center;
+        align-items: center;
+    }
+    .LeatestProducts .row .product  .product-img{
+        width: 360px;
+        height: 269.959px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .LeatestProducts .row .product  .product-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    .LeatestProducts .row .product  .product-info .product-name{
+        color: #151875;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .LeatestProducts .row .product  .product-info .product-cost .after-dis{
+        color: var(--Text, #151875);
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .LeatestProducts .row .product  .product-info .product-cost .before-dis{
+        color: #FB2448;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: line-through;
+    }
+    .LeatestProducts .dis{
+        position: absolute;
+        top:-5px;
+        left: -10px;
+    }
+    @media screen and (min-width: 0) and (max-width: 500px){
+       .LeatestProducts .row .product  .product-img{
+        width: 245px;
+        height: 134.9795px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        position: relative;
+        img{
+            width: 130px;
+        }
+        }
+        .LeatestProducts .dis{
+            
+            width: 50px !important;  
+        }
+        .LeatestProducts .row .product  .product-info .product-name{
+        font-size: 12.8px;
+       }
+    .LeatestProducts .row .product  .product-info .product-cost .after-dis{
+        font-size: 11.2px;
+        }
+    .LeatestProducts .row .product  .product-info .product-cost .before-dis{
+        font-size: 9.6px;
+        }
+    }
+/* end leatest products */

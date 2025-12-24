@@ -976,5 +976,112 @@ line-height: normal;
     .TopCategories .product:hover button{
        opacity: 1;
     }
-    
 /* end TopCategories */
+/* start LeatestBlog */
+    .LeatestBlog{
+        padding: 50px 0;
+    }
+    .LeatestBlog h2{
+        color: var(--Text, #151875);
+        font-family: "Josefin Sans";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    .LeatestBlog .row{
+        padding: 50px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 55px;
+    }
+    .LeatestBlog .blog-img1{
+        background-image: url(./../image/LeatestBlog/2dcYhvbHV-M.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .LeatestBlog .blog-img2{
+        background-image:  url(./../image/LeatestBlog/2dcYhvbHV-M1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .LeatestBlog .blog-img3{
+        background-image:  url(./../image/LeatestBlog/JIUjvqe2ZHg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .LeatestBlog .blog-info{
+        display: flex;
+        padding: 10px 0;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .LeatestBlog .blog-info .aurthor{
+        display: flex;
+        justify-content: space-between;
+        gap:10px;
+        align-items: flex-start;
+        p{
+            color: var(--Text, #151875);
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .LeatestBlog .blog-info h3{
+        color: var(--Text, #151875);
+        font-family: "Josefin Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .LeatestBlog .blog-info p{
+        color: #72718F;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .LeatestBlog .blog-info a{
+        color: var(--Text, #151875);
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+    }
+    .LeatestBlog .blog:hover h3{
+        color: var(--primary);
+    }
+    .LeatestBlog .blog:hover a{
+        color: var(--primary);
+    }
+/* end LeatestBlog */

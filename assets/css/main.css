@@ -7,20 +7,23 @@
 .header .container .left .logo{
     margin-right:45px;
 }
-.header .container{
-    display: flex;
+.header .row{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    opacity: 1;
 }
 .header{
-    padding: 35px 0 ;
+    padding: 35px 0;
     display:flex;
     flex-wrap: wrap;
     background-color: #ffffff;
     position: sticky;
     width: 100%;    
     top: 0;
+    opacity: 1;
+    z-index: 1;
 }
 .header .home a{
     text-decoration: none;

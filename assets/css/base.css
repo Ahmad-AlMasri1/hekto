@@ -15,9 +15,6 @@ ul{
     max-width: 1400px;
     margin:0 auto;
 }
-body{
-    height: 2000px;
-}
 .row{
     display: flex;
     justify-content: space-between;

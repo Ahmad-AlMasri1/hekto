@@ -972,12 +972,25 @@ line-height: normal;
             line-height: normal;
         }
         position: absolute;
-        bottom:9px;
+        bottom:50px;
         opacity: 0;
         transition: 0.7s;
     }
     .TopCategories .product:hover button{
        opacity: 1;
+    }
+    .TopCategories .product-img{
+        z-index: 0;
+    }
+    .TopCategories .product .circle{
+        width: 120%;
+        position: absolute;
+        bottom: -10px;
+        z-index: -1;
+        transition: 0.7s;
+    }
+    .TopCategories .product:hover .circle{
+        filter:drop-shadow(-6px 4px 1px #9574e5);
     }
 /* end TopCategories */
 /* start LeatestBlog */
